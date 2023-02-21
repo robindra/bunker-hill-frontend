@@ -69,7 +69,7 @@ function App() {
         {/* <!--************************************
             Wrapper Start
         *************************************--> */}
-        <div id="tg-wrapper" class="tg-wrapper tg-haslayout">
+        <div id="tg-wrapper" className="tg-wrapper tg-haslayout">
           {/* <!--************************************
               Header Start
           *************************************--> */}

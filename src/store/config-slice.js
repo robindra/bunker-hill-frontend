@@ -20,7 +20,7 @@ const configSlice = createSlice({
     },
     reducers: {
         updateConfigs(state, action) {
-            console.log(action);
+            
             state.config = action.payload[0]
         }
     }

@@ -74,7 +74,7 @@ const Login = (props) => {
   const formSubmitHandler = async (evt) => {
     ctx.onLoggedIn(emailState.value, passwordState.value);
     evt.preventDefault();
-    return;
+    // return;
     setShowError(false);
     setErrorMsg("");
     const payLoad = {
